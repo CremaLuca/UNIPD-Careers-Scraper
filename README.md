@@ -10,10 +10,29 @@ If you are interested in interacting with the Careers API via Python, you can us
 
 #### `get_verification_status`
 
-Parameters:
+Check existance and verification status of a company given its VAT code.
 
-- `company_vat`: company VAT identification number.
-- `auth`: authorization header line for HTTP request (eg. "Basic AAAA==").
+```py
+Parameters:
+    company_vat : str
+        The VAT of the company you want to check.
+    auth : str
+        Authorization header value, eg. "Basic AAAAA==".
+```
+
+#### `find_by_name`
+
+Queries the list of companies containing the given name.
+
+```py
+Parameters:
+    name : str
+        Wanted name of the companies.
+    auth : str
+        Authorization header value, eg. "Basic AAAAA==".
+```
+
+#### Other
 
 You can browse the `careers.py` script file to see all available methods or use the `__all__` variable.
 
