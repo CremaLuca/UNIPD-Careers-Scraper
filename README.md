@@ -17,7 +17,7 @@ Parameters:
 
 You can browse the `careers.py` script file to see all available methods or use the `__all__` variable.
 
-#### Automation
+### Automation
 
 If you are interested in automating the interaction with the Careers API, the `automation.py` CLI tool is your way to go.
 
